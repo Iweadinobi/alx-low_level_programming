@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unidtd.h>
+#include <unistd.h>
 /**
 * main -Entry
 * Return: 1
