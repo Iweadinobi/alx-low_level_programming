@@ -4,18 +4,18 @@
 /**
 * main - Entry point
 *
-* Return: Always 0 (Success)
+* Return: Always 0
 */
 int main(void)
 {
-int l, m;
-for (l = 0; l <= 98; l++)
+int k, m;
+for (k = 0; k <= 98; k++)
 {
-for (m = l + 1; m <= 99; m++)
+for (m = k + 1; m <= 99; m++)
 {
-putchar((l / 10) + '0')
-putchar((l % 10) + '0');
-putchar(' ');
+putchar((k / 10) + '0')
+putchar((k % 10) + '0');
+putchar('');
 putchar((m / 10) + '0');
 putchar((m % 10) + '0');
 if (l == 98 && m == 99)
@@ -25,6 +25,6 @@ putchar(' ');
 }
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
