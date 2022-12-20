@@ -8,19 +8,19 @@
 */
 int main(void)
 {
-int l, m, n;
-for (l = '0'; l < '9'; l++)
+int d, p, q;
+for (d = '0'; d < '9'; d++)
 {
-for (m = l + 1; m <= '9'; m++)
+for (p = d + 1; p <= '9'; p++)
 {
-for (n = m + 1; n <= '9'; n++)
+for (q = p + 1; q <= '9'; q++)
 {
-if ((m != l) != n)
+if ((p != d) != q)
 {
-putchar(l);
-putchar(m);
-putchar(n);
-if (l == '7' && m == '8')
+putchar(d);
+putchar(p);
+putchar(q);
+if (d == '7' && p == '8')
 continue;
 putchar(',');
 putchar(' ');
