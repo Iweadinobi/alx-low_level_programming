@@ -1,1 +1,1 @@
-A repo containing all C language related projects.
+Another readme for C
