@@ -23,7 +23,7 @@ putchar(n);
 if (l == '7' && m == '8')
 continue;
 putchar(',');
-putchar(' ')
+putchar(' ');
 }
 }
 }
