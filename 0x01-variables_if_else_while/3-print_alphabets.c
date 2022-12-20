@@ -10,16 +10,17 @@ char d;
 c = 'a';
 d = 'A';
 while
-(c <= 'a')
+(c <= 'z')
 {
 putchar(c);
 c++;
 }
 while
+(d <= 'Z')
 {
-(d <= 'A');
+putchar(d);
 d++;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
