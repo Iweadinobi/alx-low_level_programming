@@ -12,7 +12,7 @@ while (s < 50)
 if (s == 0)
 printf("%ld", t);
 else if (s == 1)
-printf(" , %ld", u);
+printf(", %ld", u);
 else
 {
 u += t;
