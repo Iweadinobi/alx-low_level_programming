@@ -15,6 +15,6 @@ sum += z;
 y = z - y;
 ++x;
 }
-printf("%ld", sum);
+printf("%ld\n", sum);
 return (0);
 }
