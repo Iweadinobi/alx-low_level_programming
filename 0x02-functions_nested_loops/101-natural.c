@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int j, q = 0
+int j, q = 0;
 while (j < 1024)
 {
 if ((j % 3 == 0) || (j % 5 == 0))
