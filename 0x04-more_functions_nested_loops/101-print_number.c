@@ -16,7 +16,6 @@ _putchar('-');
 }
 o /= 10;
 if (o != 0)
-{
 print_number(o);
 _putchar((unsigned int) n % 10 + '0');
 }
